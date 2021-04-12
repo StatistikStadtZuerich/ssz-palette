@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+requires = [
+    "matplotlib",
+    "numpy",
+]
+module = "sszpalette"
+author = "Statistik Stadt Zurich"
+author-email = "statistik@zuerich.ch"
+home-page = "https://github.com/StatistikStadtZuerich/ssz-palette"
+description-file = "README.md"
+requires-python = ">=3.7"
+classifiers=[
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
