@@ -5,7 +5,7 @@ Color palette for matplotlib
 
 Here is a list of all available colormaps in this module:
 
-
+![Overview of available colormaps](https://user-images.githubusercontent.com/538415/114397915-7a5db900-9b9f-11eb-805c-b9976569859e.png)
 
 ## Installation
 
@@ -44,6 +44,7 @@ plt.show()
 
 Result:
 
+![Scatter with harmonic6 colormap](https://user-images.githubusercontent.com/538415/114397996-919ca680-9b9f-11eb-956e-30799688d700.png)
 
 
-See the Jupyter Notebook `SSZ Palette in Matplotlib.ipynb` for a complete example.
+See the [Jupyter Notebook `SSZ Palette in Matplotlib.ipynb`](https://github.com/StatistikStadtZuerich/ssz-palette/blob/main/SSZ%20Palette%20in%20Matplotlib.ipynb) for a complete example.
