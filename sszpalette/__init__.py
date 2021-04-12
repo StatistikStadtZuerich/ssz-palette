@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.colors
 
 
- __version__ = "0.1.0"
+__version__ = "0.1.0"
 
 
 palettes = {
