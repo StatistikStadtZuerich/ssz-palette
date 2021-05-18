@@ -34,7 +34,6 @@ palettes = {
     'sequential5petrol': ['#004d4b', '#008685', '#18a2a1', '#86dbdb', '#d0f7f7'],
     
     # diverginig scales
-    #### 5 Farben rot zu grün
     'diverging5rotgruen': ['#EA4F61', '#F6AFA0', '#F4F7F9', '#B5F4F4', '#2AC7C7'],
     'diverging5rotblau': ['#EA4F61', '#F6AFA0', '#F4F7F9', '#94B7F8', '#0F05A0'],
     
