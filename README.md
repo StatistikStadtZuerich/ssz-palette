@@ -47,4 +47,12 @@ Result:
 ![Scatter with harmonic6 colormap](https://user-images.githubusercontent.com/538415/114397996-919ca680-9b9f-11eb-956e-30799688d700.png)
 
 
+To change the default colormap and set the color cycle (e.g. used for the colors of line charts), use the following snippet:
+
+```python
+plt.set_cmap('contrasting12') # or any other colormap
+plt.rcParams['axes.prop_cycle'] = plt.cycler(color=plt.get_cmap().colors)
+```
+
+
 See the [Jupyter Notebook `SSZ Palette in Matplotlib.ipynb`](https://github.com/StatistikStadtZuerich/ssz-palette/blob/main/SSZ%20Palette%20in%20Matplotlib.ipynb) ([**HTML version**](https://statistikstadtzuerich.github.io/ssz-palette/example.html)) for a complete example.
